@@ -1,0 +1,141 @@
+h1 {
+    font-size: xxx-large;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: large;
+}
+
+p {
+    font-size: small;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: large;
+}
+
+p {
+    font-size: small;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.sign-up,
+.log-in,
+.about-us,
+.widget-page,
+.contact-us{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+.home video{
+    object-fit: none;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.widget-page video{
+    object-fit: none;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.home{
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+.home h1{
+    line-height: 15vh;
+    height: 30vh;
+    color: white;
+    text-shadow:
+        2px 0 0 #000,
+        -2px 0 0 #000,
+        0 2px 0 #000,
+        0 -2px 0 #000,
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 5px #000;
+}
+.home button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.home button:hover{
+    border: 4px solid white;
+    transition: all 0.3s ease-out;
+}
+.widget-page input{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.widget-page input::placeholder{
+    color: white;
+}
+.widget-page button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.widget-page button:hover{
+    border: 4px solid white;
+    transition: all 0.3s ease-out;
+}
+
+.widget-page .widget {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 4px solid white; 
+    border-radius: 3px;
+    width: 80%;
+    margin-top: 30px;
+}

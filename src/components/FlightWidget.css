@@ -1,0 +1,19 @@
+.widget-holder {
+    text-align: center;
+}
+
+.widget-holder button{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 20px;
+
+}
+
+.widget-holder button:hover{
+    border: 4px solid white;
+    transition: all 0.3s ease-out;
+}
